@@ -39,6 +39,6 @@ In JavaScript, variables with the same name can be specified at multiple layers 
 
 ---------------------------------------------------------------------------------------------------------------
 
- 
+Lexical Scoping -
 
-
+Variables declared outside of a function are global variables and are visible everywhere in a JavaScript program. Variables declared inside a function have function scope and are visible only to code that appears inside that function.
