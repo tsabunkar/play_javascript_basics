@@ -1,12 +1,13 @@
 function showName(firstName, lastName) {
 
+    return makeFullName();
+
     function makeFullName() {
         return nameIntro + firstName + " " + lastName;
     }
     var nameIntro = "My name is ";
 
-    return makeFullName();
-
 
 }
 console.log(showName("Sachin", "Tendulkar"));
+

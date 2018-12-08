@@ -1,4 +1,4 @@
-We already know that any variable declared within a scope belongs to that scope. But what we don’t know yet, is that no matter where variables are declared within a particular scope, all variable declarations are moved to the top of their scope (global or local). This is called hoisting, as the variable declarations are hoisted to the top of the scope. Note that hoisting only moves the declaration. Any assignments are left in place.
+We already know that any variable declared within a scope belongs to that scope. But what we don’t know yet, is that no matter where variables are declared within a particular scope, all variable declarations are moved to the top of their scope (global or local). This is called hoisting, as the variable declarations are hoisted to the top of the scope. Note that hoisting only moves only the declaration. Any assignments are left in place.
 
 ---------------------------------------------------------------------------------------------------------------
 
@@ -115,7 +115,9 @@ Things to remeber -
 
 ---------------------------------------------------------------------------------------------------------------
 NOTE: (ex- overwrite_4.js)
-Values that cannot change in programming are known as immutable, while values that can be changed are mutable. Although const values cannot be reassigned, they are mutable as it is possible to modify the properties of objects declared with const.
+Values that cannot change in programming are known as immutable, while values that can be changed are mutable. (overides previous value)
+
+Although const values cannot be reassigned, they are mutable as it is possible to modify the properties of objects declared with const.
 
 
 ---------------------------------------------------------------------------------------------------------------
