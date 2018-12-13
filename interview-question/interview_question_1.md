@@ -23,9 +23,9 @@ Spread operator and Code snippet ?
 
 
 directives ?
-Hirearchical service injection ? Different level of service injection ?
+Different level of service injection ?
 Angular -6? Angular elements (Web compoent) ? Ivy render ? 
-Progressive web ? what is service worker ? how will u develope pwa in angular ?
+what is service worker ? Progressive web ?  how will u develope pwa in angular ?
 Http Interceptors ?
 Redux pattern work flow ? how to achieve redux pattern in angular ?
 difference b/w tap() and map() operator ?
@@ -35,7 +35,7 @@ what is Testbed, use of BeforeEach() function ?
 Effects ? diference b/w @Effects and switch case in reducer function
 different way of commuincation b/w component ?
 
-
+ 
 
 
 -----------------------------------------------------------------------------------------------------
@@ -306,3 +306,8 @@ An Observable is like a Stream  and allows to pass zero or more events where the
 Often Observable is preferred over Promise because it provides the features of Promise and more. With Observable it doesn’t matter if you want to handle 0, 1, or multiple events. You can utilize the same API in each case.
 
 Observable also has the advantage over Promise to be cancelable. If the result of an HTTP request to a server or some other expensive async operation isn’t needed anymore, the Subscription of an Observable allows to cancel the subscription, while a Promise will eventually call the success or failed callback even when you don’t need the notification
+
+
+
+11) what is Testbed, use of BeforeEach() function ?
+Configures and initializes environment for unit testing and provides methods for creating components and services in unit tests.
